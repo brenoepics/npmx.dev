@@ -97,7 +97,7 @@ const sortedOptionalDependencies = computed(() => {
             >
               <span class="i-carbon:warning-alt w-3 h-3 block" />
             </span>
-            <span aria-hidden="true" class="flex-shrink-1 flex-grow-1" />
+            <span aria-hidden="true" class="shrink grow" />
             <NuxtLink
               v-if="getVulnerableDepInfo(dep)"
               :to="{
@@ -155,12 +155,12 @@ const sortedOptionalDependencies = computed(() => {
         <li
           v-for="peer in sortedPeerDependencies.slice(0, peerDepsExpanded ? undefined : 10)"
           :key="peer.name"
-          class="flex items-center justify-start py-1 text-sm gap-2"
+          class="flex items-center justify-between py-1 text-sm gap-2 min-w-0"
         >
-          <div class="flex items-center gap-2 min-w-0">
+          <div class="flex items-center gap-2 shrink-0">
             <NuxtLink
               :to="{ name: 'package', params: { package: peer.name.split('/') } }"
-              class="font-mono text-fg-muted hover:text-fg transition-colors duration-200 truncate"
+              class="font-mono text-fg-muted hover:text-fg transition-colors duration-200"
             >
               {{ peer.name }}
             </NuxtLink>
@@ -172,13 +172,12 @@ const sortedOptionalDependencies = computed(() => {
               {{ $t('package.dependencies.optional') }}
             </span>
           </div>
-          <span aria-hidden="true" class="flex-shrink-1 flex-grow-1" />
           <NuxtLink
             :to="{
               name: 'package',
               params: { package: [...peer.name.split('/'), 'v', peer.version] },
             }"
-            class="font-mono text-xs text-fg-subtle max-w-[40%] text-end truncate"
+            class="font-mono text-xs text-fg-subtle shrink-0"
             :title="peer.version"
           >
             {{ peer.version }}
@@ -221,7 +220,7 @@ const sortedOptionalDependencies = computed(() => {
           >
             {{ dep }}
           </NuxtLink>
-          <span aria-hidden="true" class="flex-shrink-1 flex-grow-1" />
+          <span aria-hidden="true" class="shrink grow" />
           <NuxtLink
             :to="{ name: 'package', params: { package: [...dep.split('/'), 'v', version] } }"
             class="font-mono text-xs text-fg-subtle max-w-[50%] text-end truncate"
