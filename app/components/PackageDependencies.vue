@@ -169,6 +169,7 @@ const sortedOptionalDependencies = computed(() => {
               class="shrink-0 text-fg-muted hover:text-fg transition-colors duration-200 cursor-help inline-flex items-center"
               :title="$t('package.dependencies.optional')"
               :aria-label="$t('package.dependencies.optional')"
+              role="img"
             >
               <span aria-hidden="true" class="i-carbon:information w-3 h-3 block" />
             </span>
