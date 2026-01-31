@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "home": {
+      "title": "npmx - Navegador de Pacotes para o Registro npm",
+      "description": "Um navegador melhor para o registro npm. Pesquise, navegue e explore pacotes com uma interface moderna."
+    }
+  },
+  "version": "Versão",
+  "built_at": "construído {0}",
+  "alt_logo": "logo npmx",
+  "tagline": "um navegador melhor para o registro npm",
+  "non_affiliation_disclaimer": "não é afiliado com npm, Inc.",
+  "trademark_disclaimer": "npm é uma marca registrada da npm, Inc. Este site não é afiliado com npm, Inc.",
+  "footer": {
+    "about": "sobre",
+    "docs": "documentação",
+    "source": "código-fonte",
+    "social": "redes sociais",
+    "chat": "chat"
+  },
+  "search": {
+    "label": "Pesquisar pacotes npm",
+    "placeholder": "pesquisar pacotes...",
+    "button": "pesquisar",
+    "clear": "Limpar pesquisa",
+    "searching": "Pesquisando...",
+    "found_packages": "Nenhum pacote encontrado | 1 pacote encontrado | {count} pacotes encontrados",
+    "updating": "(atualizando...)",
+    "no_results": "Nenhum pacote encontrado para \"{query}\"",
+    "results": "Resultados da pesquisa",
+    "not_taken": "{name} não está em uso",
+    "claim_prompt": "Reivindicar este nome de pacote no npm",
+    "claim_button": "Reivindicar \"{name}\"",
+    "want_to_claim": "Deseja reivindicar este nome de pacote?",
+    "start_typing": "Comece a digitar para pesquisar pacotes",
+    "exact_match": "exato",
+    "suggestion": {
+      "user": "usuário",
+      "org": "organização",
+      "view_user_packages": "Ver pacotes deste usuário",
+      "view_org_packages": "Ver pacotes desta organização"
+    }
+  },
+  "nav": {
+    "main_navigation": "Principal",
+    "popular_packages": "Pacotes populares",
+    "search": "pesquisa",
+    "settings": "configurações",
+    "compare": "comparar",
+    "back": "voltar",
+    "menu": "Menu",
+    "mobile_menu": "Menu de navegação",
+    "open_menu": "Abrir menu",
+    "links": "Links",
+    "tap_to_search": "Toque para pesquisar"
+  },
+  "settings": {
+    "title": "configurações",
+    "tagline": "personalize sua experiência npmx",
+    "meta_description": "Customize sua experiência npmx.dev com preferências de tema, idioma e exibição.",
+    "sections": {
+      "appearance": "Aparência",
+      "display": "Exibição",
+      "language": "Idioma"
+    },
+    "relative_dates": "Datas relativas",
+    "relative_dates_description": "Mostrar \"há 3 dias\" em vez de datas completas",
+    "include_types": "Incluir {'@'}types na instalação",
+    "include_types_description": "Adicionar pacote {'@'}types aos comandos de instalação para pacotes sem tipo",
+    "hide_platform_packages": "Ocultar pacotes específicos de plataforma na pesquisa",
+    "hide_platform_packages_description": "Ocultar pacotes binários nativos como {'@'}esbuild/linux-x64 dos resultados",
+    "theme": "Tema",
+    "theme_light": "Claro",
+    "theme_dark": "Escuro",
+    "theme_system": "Sistema",
+    "language": "Idioma",
+    "help_translate": "Ajude a traduzir npmx",
+    "accent_colors": "Cores de destaque",
+    "clear_accent": "Limpar cor de destaque",
+    "translation_progress": "Progresso de tradução"
+  },
+  "i18n": {
+    "missing_keys": "{count} tradução ausente | {count} traduções ausentes",
+    "copy_keys": "Copiar chaves",
+    "show_more_keys": "Mostrar {count} mais...",
+    "contribute_hint": "Ajude a melhorar esta tradução adicionando as chaves ausentes.",
+    "edit_on_github": "Editar no GitHub",
+    "view_guide": "Guia de tradução"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "loading_more": "Carregando mais...",
+    "loading_packages": "Carregando pacotes...",
+    "end_of_results": "Fim dos resultados",
+    "try_again": "Tente novamente",
+    "close": "Fechar",
+    "retry": "Repetir",
+    "copy": "copiar",
+    "copied": "copiado!",
+    "skip_link": "Pular para o conteúdo principal",
+    "close_modal": "Fechar modal",
+    "show_more": "mostrar mais",
+    "warnings": "Avisos:",
+    "go_back_home": "Voltar para a página inicial",
+    "view_on_npm": "visualizar no npm",
+    "per_week": "/ semana",
+    "vanity_downloads_hint": "Número de vaidade: nenhum pacote exibido | Número de vaidade: para o pacote exibido | Número de vaidade: Soma de {count} pacotes exibidos",
+    "sort": {
+      "name": "nome",
+      "role": "função",
+      "members": "membros"
+    },
+    "scroll_to_top": "Rolar para o topo"
+  }
+}
