@@ -798,45 +798,45 @@
   },
   "compare": {
     "packages": {
-      "title": "compare packages",
-      "tagline": "compare npm packages side-by-side to help you choose the right one.",
-      "meta_title": "Compare {packages} - npmx",
-      "meta_title_empty": "Compare Packages - npmx",
-      "meta_description": "Side-by-side comparison of {packages}",
-      "meta_description_empty": "Compare npm packages side-by-side",
-      "section_packages": "Packages",
-      "section_facets": "Facets",
-      "section_comparison": "Comparison",
-      "loading": "Loading package data...",
-      "error": "Failed to load package data. Please try again.",
-      "empty_title": "Select packages to compare",
-      "empty_description": "Search and add at least 2 packages above to see a side-by-side comparison of their metrics."
+      "title": "comparar pacotes",
+      "tagline": "compare pacotes npm lado a lado para ajudá-lo a escolher o certo.",
+      "meta_title": "Comparar {packages} - npmx",
+      "meta_title_empty": "Comparar Pacotes - npmx",
+      "meta_description": "Comparação lado a lado de {packages}",
+      "meta_description_empty": "Comparar pacotes npm lado a lado",
+      "section_packages": "Pacotes",
+      "section_facets": "Aspectos",
+      "section_comparison": "Comparação",
+      "loading": "Carregando dados do pacote...",
+      "error": "Falha ao carregar dados do pacote. Por favor, tente novamente.",
+      "empty_title": "Selecione pacotes para comparar",
+      "empty_description": "Pesquise e adicione pelo menos 2 pacotes acima para ver uma comparação lado a lado de suas métricas."
     },
     "selector": {
-      "search_label": "Search for packages",
-      "search_first": "Search for a package...",
-      "search_add": "Add another package...",
-      "searching": "Searching...",
-      "remove_package": "Remove {package}",
-      "packages_selected": "{count}/{max} packages selected.",
-      "add_hint": "Add at least 2 packages to compare.",
-      "loading_versions": "Loading versions...",
-      "select_version": "Select version"
+      "search_label": "Pesquisar por pacotes",
+      "search_first": "Pesquisar por um pacote...",
+      "search_add": "Adicionar outro pacote...",
+      "searching": "Pesquisando...",
+      "remove_package": "Remover {package}",
+      "packages_selected": "{count}/{max} pacotes selecionados.",
+      "add_hint": "Adicione pelo menos 2 pacotes para comparar.",
+      "loading_versions": "Carregando versões...",
+      "select_version": "Selecionar versão"
     },
     "facets": {
-      "group_label": "Comparison facets",
-      "all": "all",
-      "none": "none",
-      "coming_soon": "Coming soon",
-      "select_all": "Select all facets",
-      "deselect_all": "Deselect all facets",
-      "select_category": "Select all {category} facets",
-      "deselect_category": "Deselect all {category} facets",
+      "group_label": "Aspectos de comparação",
+      "all": "todos",
+      "none": "nenhum",
+      "coming_soon": "Em breve",
+      "select_all": "Selecionar todos os aspectos",
+      "deselect_all": "Desselecionar todos os aspectos",
+      "select_category": "Selecionar todos os aspectos {category}",
+      "deselect_category": "Desselecionar todos os aspectos {category}",
       "categories": {
         "performance": "Performance",
-        "health": "Health",
-        "compatibility": "Compatibility",
-        "security": "Security & Compliance"
+        "health": "Saúde",
+        "compatibility": "Compatibilidade",
+        "security": "Segurança e Conformidade"
       }
     }
   }
