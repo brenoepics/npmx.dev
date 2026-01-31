@@ -764,16 +764,16 @@
   "auth": {
     "modal": {
       "title": "Atmosphere",
-      "connected_as": "Connected as {'@'}{handle}",
-      "disconnect": "Disconnect",
-      "connect_prompt": "Connect with your Atmosphere account",
-      "handle_label": "Handle",
+      "connected_as": "Conectado como {'@'}{handle}",
+      "disconnect": "Desconectar",
+      "connect_prompt": "Conecte-se com sua conta Atmosphere",
+      "handle_label": "Nome de identificação",
       "handle_placeholder": "alice.npmx.social",
-      "connect": "Connect",
-      "create_account": "Create a new account",
-      "connect_bluesky": "Connect with Bluesky",
-      "what_is_atmosphere": "What is an Atmosphere account?",
-      "atmosphere_explanation": "{npmx} uses the {atproto} to power many of its social features, allowing users to own their data and use one account for all compatible applications. Once you create an account, you can use other apps like {bluesky} and {tangled} with the same account."
+      "connect": "Conectar",
+      "create_account": "Criar uma nova conta",
+      "connect_bluesky": "Conectar com Bluesky",
+      "what_is_atmosphere": "O que é uma conta Atmosphere?",
+      "atmosphere_explanation": "{npmx} usa o {atproto} para alimentar muitos de seus recursos sociais, permitindo que os usuários possuam seus dados e usem uma conta para todos os aplicativos compatíveis. Depois de criar uma conta, você pode usar outros aplicativos como {bluesky} e {tangled} com a mesma conta."
     }
   },
   "header": {
